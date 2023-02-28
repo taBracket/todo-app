@@ -1,7 +1,10 @@
 import React from 'react'
 import './Display.css'
+import DisplayMenu from '../display-menu/DisplayMenu'
 export default function Display() {
     return (
-        <div>Display</div>
+        <div>
+            <DisplayMenu />
+        </div>
     )
 }
